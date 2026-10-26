@@ -2,7 +2,9 @@
 
 Atlas del cielo nocturno de escritorio. Proyecto de portafolio personal del usuario (GitHub `mitotkp`), licencia MIT.
 Stack: **Electron + TypeScript** (Electron Forge, plantilla `vite-typescript`), pruebas con **Vitest**, scripts con **tsx**.
-No es una app web: se distribuye como ejecutable de escritorio. No subir a GitHub sin que el usuario lo pida.
+No es una app web: se distribuye como ejecutable de escritorio.
+
+Repositorio **público**: https://github.com/mitotkp/skydome (rama `main`). Hacer push solo cuando el usuario lo pida. `datos-fuente/` está en `.gitignore` (no se suben comprimidos; el README explica cómo descargarlos). Desde la app de Claude, `gh` usa otra cuenta por defecto. Para operar como mitotkp: `GH_TOKEN=$(gh auth token --user mitotkp)` y `git -c credential.helper= -c "credential.helper=!gh auth git-credential" push`.
 
 ## Cómo trabajar con el usuario (IMPORTANTE)
 - Responder en **español neutral**, sin voseo.
